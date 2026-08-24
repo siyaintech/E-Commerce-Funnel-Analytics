@@ -3,6 +3,11 @@
 An end-to-end full-stack web application designed to analyze and visualize e-commerce shopping funnel conversion and drop-off metrics per unique user session. 
 
 This platform processes raw e-commerce events (based on columns in the Kaggle *"eCommerce events history"* dataset), cleans the data through an automated pipeline, saves it in a optimized PostgreSQL database, and presents insights via a responsive, glassmorphic React dashboard.
+![Image alt](https://github.com/siyaintech/E-Commerce-Funnel-Analytics/blob/main/Screenshot%20(214).png?raw=true)
+![Image alt](https://github.com/siyaintech/E-Commerce-Funnel-Analytics/blob/main/Screenshot%20(215).png?raw=true)
+![Image alt](https://github.com/siyaintech/E-Commerce-Funnel-Analytics/blob/main/Screenshot%20(216).png?raw=true)
+![Image alt](https://github.com/siyaintech/E-Commerce-Funnel-Analytics/blob/main/Screenshot%20(217).png?raw=true)
+![Image alt](https://github.com/siyaintech/E-Commerce-Funnel-Analytics/blob/main/Screenshot%20(218).png?raw=true)
 
 ---
 
@@ -174,4 +179,6 @@ Retrieves all unique brand names and category codes currently present in the dat
 - 📉 **The View-to-Cart Drop-off Bottleneck**: Across all segments, the transition from **View → Add to Cart** shows a drop-off rate of **65% to 70%**. This suggests significant price comparison shopping, lack of clear product descriptions, or insufficient initial reviews.
 - 🛍️ **High Cart Purchase Completion**: Once an item is placed in the cart, the conversion rate to purchase is strong (**40%**). Re-engagement emails or abandoned-cart discount alerts could yield high return on investment.
 - 🍏 **Segment Leadership**: **Apple** and **Samsung** products lead both view counts and overall purchase conversions (~18-20% overall conversion), whereas lower tier brands show moderate views but sub-5% purchase completion.
+
+- 
 - 📅 **Temporal Trends**: Funnel conversions remain relatively stable day-to-day, but minor peaks occur during weekends. Marketing budgets could benefit from targeting weekend ad placements.
