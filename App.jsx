@@ -30,7 +30,7 @@ import {
   TrendingDown
 } from 'lucide-react';
 
-const API_BASE_URL = "https://e-commerce-funnel-analytics-production.up.railway.app";
+const API_BASE_URL = "https://e-commerce-funnel-analytics-1.onrender.com/funnel";
 
 export default function App() {
   // Date states (default to past 30 days)
